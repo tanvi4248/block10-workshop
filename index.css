@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    color: #f9f9fa;
+    background: #272935;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    border-bottom: 2px solid burlywood;
+    padding: 10px 40px;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.name a{
+    color: #f9f9fa;
+    text-decoration: none;
+}
+.menu-links a {
+    color: #f9f9fa;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-menu {
+    justify-content: end;
+    display: grid;
+}
+.home-content-main {
+    display: grid;
+    grid-template-columns: 68% 32%;
+    margin: 5rem 0 0 0;
+    align-items: center;
+    grid-gap: 15px;
+    padding: 0 40px;
+}
+.profile-image img {
+    border-radius: 50%;
+}
+.home-title {
+    font-size: 4rem;
+}
+.home-content {
+    font-size: 22px;
+    line-height: 32px;
+}
+svg {
+    font-size: 50px;
+}
+.facebook > svg{
+    fill: #4267B2;
+}
+.linkedin > svg{
+    fill: #0A66C2;
+}
+.twitter > svg{
+    fill: #1DA1F2;
+}
+footer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    margin: 5rem 0  0 0;
+    padding: 10px 0;
+    border-top: 2px solid burlywood;
+}
+#about {
+    padding: 0 40px;
+}
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.skill {
+    background: burlywood;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.project {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    align-items: center;
+    grid-gap: 15px;
+    margin: 0 0 2rem;
+}
+.project:last-child{
+    margin: 0;
+}
+.project > img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+section.portfolio-gallery {
+    margin: 5rem 0 0;
+    padding: 0 40px;
+}
+.project.project-01,
+.project.project-03 {
+    grid-auto-flow: dense;
+    grid-template-columns: 65% 30%;
+}
+.project-01 img,
+.project-03 img {
+    grid-column: 2;
+}
+.project-01 .project-desc,
+.project-03 .project-desc {
+    grid-column: 1;
+}
